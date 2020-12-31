@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://linhpbui.com"
+base_url = "https://linhpbui.github.io/linhpbui"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
