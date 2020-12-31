@@ -1,0 +1,8 @@
+{% include "head.html" %}
+</head>
+
+<body>
+    {% include "nav.html" %}
+    <article class="left_column">{{section.extra.left_column | markdown(inline=true) | safe}}</article>
+    <article class="right_column">{{section.extra.right_column | markdown(inline=true) | safe}}</article>
+</body>
